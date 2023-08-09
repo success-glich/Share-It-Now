@@ -9,12 +9,12 @@
     "client": "npm start --prefix ./client",
     "start": "node dist/server.js",
     "server": "nodemon dist/server.js"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/dotenv": "^8.2.0",
     "cloudinary": "^1.40.0",
     "concurrently": "^8.2.0",
     "cors": "^2.8.5",
