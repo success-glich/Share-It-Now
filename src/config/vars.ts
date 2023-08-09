@@ -1,0 +1,16 @@
+import dotenv from "dotenv";
+dotenv.config({});
+
+const config = {
+  PORT: process.env.PORT,
+  MONGO_URI: process.env.MONGO_URI,
+  CLOUDINARY_API_KEY: process.env.CLOUDINARY_API_KEY,
+  CLOUDINARY_API_SECRET: process.env.CLOUDINARY_API_SECRET,
+  CLOUDINARY_API_CLOUD: process.env.CLOUDINARY_API_CLOUD,
+  SENDINBLUE_SMTP_HOST: process.env.SENDINBLUE_SMTP_HOST,
+  SENDINBLUE_SMTP_PORT: process.env.SENDINBLUE_SMTP_PORT,
+  SENDINBLUE_SMTP_PASSWORD: process.env.SENDINBLUE_SMTP_PASSWORD,
+  SENDINBLUE_SMTP_USER: process.env.SENDINBLUE_SMTP_USER,
+  SENDINBLUE_SMTP_SERVICE: process.env.SENDINBLUE_SMTP_SERVICE,
+};
+export default config;
